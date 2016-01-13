@@ -69,7 +69,9 @@ public class Task {
         		user_input.close();
         		break;
         		
-        	default: System.out.println("Invalid input! Try again");
+        	default: 
+        		System.out.println("Invalid input! Try again");
+        		break;
         		}
         	
         }
