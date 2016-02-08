@@ -59,9 +59,11 @@ public class Task {
         		break;
         		
         	case 3:
+        		System.out.println("Enter the task number you want to remove.\n");
         		removeTaskStr = user_input.nextLine();
         		removeTask = Integer.parseInt(removeTaskStr);
         		taskList.remove((removeTask-1));
+        		System.out.println("Ok it's been removed!");
         		break;
         		
         	case 4: 		
